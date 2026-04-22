@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ski & Snowshoe Rentals | Mountain Outfitters | West Bend, WI</title>
+  <meta name="description" content="Downhill ski, cross country ski, and snowshoe rentals at Mountain Outfitters in West Bend, WI. Daily, weekend, weekly, and seasonal rates. Near Sunburst Ski Area and Kettle Moraine trails." />
+  <link rel="canonical" href="https://www.mountainout.com/rentals.html" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<nav class="nav">
+  <a href="index.html" class="nav-logo">
+    <span class="nav-logo-main">Mountain Outfitters</span>
+    <span class="nav-logo-sub">West Bend, Wisconsin</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="bikes.html">Bikes</a></li>
+    <li><a href="skiing.html">Skiing</a></li>
+    <li><a href="snowboards.html">Snowboards</a></li>
+    <li><a href="skateboards.html">Skateboards</a></li>
+    <li><a href="bmx.html">BMX</a></li>
+    <li><a href="disc-golf.html">Disc Golf</a></li>
+    <li><a href="rentals.html"  class="active">Rentals</a></li>
+    <li><a href="about.html">About</a></li>
+    <li class="nav-cta"><a href="find-us.html">Find Us</a></li>
+  </ul>
+  <button class="nav-hamburger" aria-label="Open menu" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="bikes.html" onclick="toggleMenu()">Bikes</a>
+  <a href="skiing.html" onclick="toggleMenu()">Skiing</a>
+  <a href="snowboards.html" onclick="toggleMenu()">Snowboards</a>
+  <a href="skateboards.html" onclick="toggleMenu()">Skateboards</a>
+  <a href="bmx.html" onclick="toggleMenu()">BMX</a>
+  <a href="disc-golf.html" onclick="toggleMenu()">Disc Golf</a>
+  <a href="rentals.html" onclick="toggleMenu()">Rentals</a>
+  <a href="about.html" onclick="toggleMenu()">About</a>
+  <a href="find-us.html" onclick="toggleMenu()">Find Us</a>
+</div>
+
+<div class="page-header">
+  <img class="page-header-img" src="https://images.unsplash.com/photo-1483389127117-b6a2102724ae?w=1400&q=85&fit=crop&crop=center" alt="Ski rental equipment lined up in a shop" loading="eager" />
+  <div class="page-header-overlay"></div>
+  <div class="page-header-content">
+    <h1>Rentals</h1>
+    <p>Downhill skis, cross country skis, and snowshoes — flexible rates built around how you use them.</p>
+  </div>
+</div>
+
+<section style="background:var(--white);">
+  <p class="section-label">Rental Shop</p>
+  <h2 class="section-title">Everything You Need to Get Out There</h2>
+  <p class="section-intro">No need to own gear to enjoy the best of Wisconsin&#39;s winter trails and slopes. Our rental fleet is well-maintained and fitted by staff who actually use this equipment.</p>
+
+  <div style="display:grid; grid-template-columns: repeat(3,1fr); gap:1.5rem; max-width:960px;">
+    <div style="background:var(--cream); border-radius:5px; padding:2rem 1.5rem; border:1px solid var(--border);">
+      <h3 style="font-family:Montserrat,sans-serif; font-weight:800; font-size:1rem; color:var(--green); margin-bottom:0.75rem;">Downhill Skis</h3>
+      <p style="font-size:0.9rem; color:var(--muted); margin-bottom:1rem;">Boots and poles included. Fitted to your height, weight, and ability level by our staff.</p>
+      <ul class="product-list" style="margin-top:0;">
+        <li>Daily rate</li>
+        <li>Weekend rate</li>
+        <li>Weekly rate</li>
+        <li>Seasonal rate</li>
+      </ul>
+    </div>
+    <div style="background:var(--cream); border-radius:5px; padding:2rem 1.5rem; border:1px solid var(--border);">
+      <h3 style="font-family:Montserrat,sans-serif; font-weight:800; font-size:1rem; color:var(--green); margin-bottom:0.75rem;">Cross Country Skis</h3>
+      <p style="font-size:0.9rem; color:var(--muted); margin-bottom:1rem;">Perfect for the Zillmer, Greenbush, and New Fane trails in the Northern Kettle Moraine Forest.</p>
+      <ul class="product-list" style="margin-top:0;">
+        <li>Daily rate</li>
+        <li>Weekend rate</li>
+        <li>Weekly rate</li>
+        <li>Seasonal rate</li>
+      </ul>
+    </div>
+    <div style="background:var(--cream); border-radius:5px; padding:2rem 1.5rem; border:1px solid var(--border);">
+      <h3 style="font-family:Montserrat,sans-serif; font-weight:800; font-size:1rem; color:var(--green); margin-bottom:0.75rem;">Snowshoes</h3>
+      <p style="font-size:0.9rem; color:var(--muted); margin-bottom:1rem;">Explore the Kettle Moraine on foot. Great for all ages and fitness levels.</p>
+      <ul class="product-list" style="margin-top:0;">
+        <li>Daily rate</li>
+        <li>Weekend rate</li>
+        <li>Weekly rate</li>
+        <li>Seasonal rate</li>
+      </ul>
+    </div>
+  </div>
+
+  <p style="margin-top:2.5rem; color:var(--muted); font-size:1rem;">Call us at <a href="tel:+12623350424" style="color:var(--amber); font-weight:600;">(262) 335-0424</a> for current pricing and availability.</p>
+</section>
+<section class="contact-band">
+  <div class="contact-inner">
+    <h2>Come See Us</h2>
+    <div class="contact-block">
+      <h3>Store Hours</h3>
+      <table class="hours-table">
+        <tbody>
+          <tr class="closed"><td>Mon</td><td>Closed</td></tr>
+          <tr><td>Tue</td><td>10:00 am &ndash; 6:00 pm</td></tr>
+          <tr><td>Wed</td><td>10:00 am &ndash; 6:00 pm</td></tr>
+          <tr><td>Thu</td><td>10:00 am &ndash; 6:00 pm</td></tr>
+          <tr><td>Fri</td><td>10:00 am &ndash; 6:00 pm</td></tr>
+          <tr><td>Sat</td><td>10:00 am &ndash; 3:00 pm</td></tr>
+          <tr class="closed"><td>Sun</td><td>Closed</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="contact-block">
+      <h3>Contact</h3>
+      <address>
+        109 S. Main Street<br />
+        West Bend, WI 53095<br /><br />
+        <a href="tel:+12623350424">(262) 335-0424</a><br />
+        <a href="mailto:mntout@mountainout.com">mntout@mountainout.com</a><br /><br />
+        <a href="find-us.html">Get Directions</a>
+      </address>
+    </div>
+  </div>
+</section>
+<footer>
+  <p>&copy; <span id="yr"></span> Mountain Outfitters &middot; 109 S. Main Street, West Bend, WI 53095</p>
+  <ul class="footer-links">
+    <li><a href="bikes.html">Bikes</a></li>
+    <li><a href="skiing.html">Skiing</a></li>
+    <li><a href="snowboards.html">Snowboards</a></li>
+    <li><a href="skateboards.html">Skateboards</a></li>
+    <li><a href="bmx.html">BMX</a></li>
+    <li><a href="disc-golf.html">Disc Golf</a></li>
+    <li><a href="rentals.html">Rentals</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="find-us.html">Find Us</a></li>
+  </ul>
+</footer>
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+  function toggleMenu() { document.getElementById('mobileMenu').classList.toggle('open'); }
+  document.addEventListener('click', function(e) {
+    const menu = document.getElementById('mobileMenu');
+    if (menu.classList.contains('open') && !menu.contains(e.target) && !e.target.closest('.nav-hamburger')) menu.classList.remove('open');
+  });
+  const days = ['sun','mon','tue','wed','thu','fri','sat'];
+  const today = days[new Date().getDay()];
+  document.querySelectorAll('.hours-table tr td:first-child').forEach(td => {
+    if (td.textContent.toLowerCase() === today) { td.closest('tr').classList.add('today'); td.closest('tr').classList.remove('closed'); }
+  });
+</script>
+</body>
+</html>

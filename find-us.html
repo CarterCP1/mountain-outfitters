@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Find Us | Mountain Outfitters | West Bend, WI</title>
+  <meta name="description" content="Mountain Outfitters is located at 109 S. Main Street in historic downtown West Bend, WI 53095. Store hours, directions, phone, and contact information." />
+  <link rel="canonical" href="https://www.mountainout.com/find-us.html" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<nav class="nav">
+  <a href="index.html" class="nav-logo">
+    <span class="nav-logo-main">Mountain Outfitters</span>
+    <span class="nav-logo-sub">West Bend, Wisconsin</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="bikes.html">Bikes</a></li>
+    <li><a href="skiing.html">Skiing</a></li>
+    <li><a href="snowboards.html">Snowboards</a></li>
+    <li><a href="skateboards.html">Skateboards</a></li>
+    <li><a href="bmx.html">BMX</a></li>
+    <li><a href="disc-golf.html">Disc Golf</a></li>
+    <li><a href="rentals.html">Rentals</a></li>
+    <li><a href="about.html">About</a></li>
+    <li class="nav-cta"><a href="find-us.html"  class="active">Find Us</a></li>
+  </ul>
+  <button class="nav-hamburger" aria-label="Open menu" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="bikes.html" onclick="toggleMenu()">Bikes</a>
+  <a href="skiing.html" onclick="toggleMenu()">Skiing</a>
+  <a href="snowboards.html" onclick="toggleMenu()">Snowboards</a>
+  <a href="skateboards.html" onclick="toggleMenu()">Skateboards</a>
+  <a href="bmx.html" onclick="toggleMenu()">BMX</a>
+  <a href="disc-golf.html" onclick="toggleMenu()">Disc Golf</a>
+  <a href="rentals.html" onclick="toggleMenu()">Rentals</a>
+  <a href="about.html" onclick="toggleMenu()">About</a>
+  <a href="find-us.html" onclick="toggleMenu()">Find Us</a>
+</div>
+
+<div class="page-header">
+  <img class="page-header-img" src="images/findus1.jpg" alt="Downtown West Bend, Wisconsin" loading="eager"
+       onerror="this.src='https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1400&q=85&fit=crop'" />
+  <div class="page-header-overlay"></div>
+  <div class="page-header-content">
+    <h1>Find Us</h1>
+    <p>109 S. Main Street, historic downtown West Bend, Wisconsin.</p>
+  </div>
+</div>
+
+<section class="contact-band" style="padding: 5rem 5%;">
+  <div class="contact-inner">
+    <h2>Location &amp; Hours</h2>
+    <div class="contact-block">
+      <h3>Store Hours</h3>
+      <table class="hours-table">
+        <tbody>
+          <tr class="closed"><td>Mon</td><td>Closed</td></tr>
+          <tr><td>Tue</td><td>10:00 am &ndash; 6:00 pm</td></tr>
+          <tr><td>Wed</td><td>10:00 am &ndash; 6:00 pm</td></tr>
+          <tr><td>Thu</td><td>10:00 am &ndash; 6:00 pm</td></tr>
+          <tr><td>Fri</td><td>10:00 am &ndash; 6:00 pm</td></tr>
+          <tr><td>Sat</td><td>10:00 am &ndash; 3:00 pm</td></tr>
+          <tr class="closed"><td>Sun</td><td>Closed</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="contact-block">
+      <h3>Address &amp; Contact</h3>
+      <address>
+        109 S. Main Street<br />
+        West Bend, WI 53095<br /><br />
+        <a href="tel:+12623350424">(262) 335-0424</a><br />
+        <a href="mailto:mntout@mountainout.com">mntout@mountainout.com</a><br /><br />
+        <a href="https://www.facebook.com/mountainoutfitters" target="_blank" rel="noopener">Facebook</a>
+      </address>
+      <a href="https://maps.google.com/?q=109+S+Main+Street+West+Bend+WI+53095" target="_blank" rel="noopener" class="btn btn-primary" style="margin-top:1.5rem; display:inline-block;">Open in Google Maps</a>
+    </div>
+  </div>
+</section>
+
+<div class="map-strip">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2902.5!2d-88.1840!3d43.4250!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8804e4397fc9e3ff%3A0x89fdb8f95e4a3e41!2s109%20S%20Main%20St%2C%20West%20Bend%2C%20WI%2053095!5e0!3m2!1sen!2sus!4v1"
+    allowfullscreen
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    title="Mountain Outfitters — 109 S. Main Street, West Bend, WI 53095"
+  ></iframe>
+</div>
+<footer>
+  <p>&copy; <span id="yr"></span> Mountain Outfitters &middot; 109 S. Main Street, West Bend, WI 53095</p>
+  <ul class="footer-links">
+    <li><a href="bikes.html">Bikes</a></li>
+    <li><a href="skiing.html">Skiing</a></li>
+    <li><a href="snowboards.html">Snowboards</a></li>
+    <li><a href="skateboards.html">Skateboards</a></li>
+    <li><a href="bmx.html">BMX</a></li>
+    <li><a href="disc-golf.html">Disc Golf</a></li>
+    <li><a href="rentals.html">Rentals</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="find-us.html">Find Us</a></li>
+  </ul>
+</footer>
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+  function toggleMenu() { document.getElementById('mobileMenu').classList.toggle('open'); }
+  document.addEventListener('click', function(e) {
+    const menu = document.getElementById('mobileMenu');
+    if (menu.classList.contains('open') && !menu.contains(e.target) && !e.target.closest('.nav-hamburger')) menu.classList.remove('open');
+  });
+  const days = ['sun','mon','tue','wed','thu','fri','sat'];
+  const today = days[new Date().getDay()];
+  document.querySelectorAll('.hours-table tr td:first-child').forEach(td => {
+    if (td.textContent.toLowerCase() === today) { td.closest('tr').classList.add('today'); td.closest('tr').classList.remove('closed'); }
+  });
+</script>
+</body>
+</html>

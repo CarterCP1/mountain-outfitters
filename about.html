@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | Mountain Outfitters | West Bend, WI</title>
+  <meta name="description" content="Mountain Outfitters has been serving the Northern Kettle Moraine since 1994. Learn about our history, our staff, and our commitment to the West Bend outdoor community." />
+  <link rel="canonical" href="https://www.mountainout.com/about.html" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav class="nav">
+  <a href="index.html" class="nav-logo">
+    <span class="nav-logo-main">Mountain Outfitters</span>
+    <span class="nav-logo-sub">West Bend, Wisconsin</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="bikes.html">Bikes</a></li>
+    <li><a href="skiing.html">Skiing</a></li>
+    <li><a href="snowboards.html">Snowboards</a></li>
+    <li><a href="skateboards.html">Skateboards</a></li>
+    <li><a href="bmx.html">BMX</a></li>
+    <li><a href="disc-golf.html">Disc Golf</a></li>
+    <li><a href="rentals.html">Rentals</a></li>
+    <li><a href="about.html" class="active">About</a></li>
+    <li class="nav-cta"><a href="find-us.html">Find Us</a></li>
+  </ul>
+  <button class="nav-hamburger" aria-label="Open menu" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="bikes.html" onclick="toggleMenu()">Bikes</a>
+  <a href="skiing.html" onclick="toggleMenu()">Skiing</a>
+  <a href="snowboards.html" onclick="toggleMenu()">Snowboards</a>
+  <a href="skateboards.html" onclick="toggleMenu()">Skateboards</a>
+  <a href="bmx.html" onclick="toggleMenu()">BMX</a>
+  <a href="disc-golf.html" onclick="toggleMenu()">Disc Golf</a>
+  <a href="rentals.html" onclick="toggleMenu()">Rentals</a>
+  <a href="about.html" onclick="toggleMenu()">About</a>
+  <a href="find-us.html" onclick="toggleMenu()">Find Us</a>
+</div>
+
+<div class="page-header">
+  <img class="page-header-img" src="images/store-main.jpg" alt="Mountain Outfitters storefront — 109 S. Main Street, West Bend, WI" loading="eager" />
+  <div class="page-header-overlay"></div>
+  <div class="page-header-content">
+    <h1>About Mountain Outfitters</h1>
+    <p>Serving the Northern Kettle Moraine since the spring of 1994.</p>
+  </div>
+</div>
+
+<section style="background: var(--white);">
+  <div class="about-inner">
+    <div class="about-img-wrap">
+      <img src="images/about1.jpg" alt="Mountain Outfitters — West Bend's ski and cycle resource center" loading="lazy" />
+      <div class="about-year">
+        <strong>1994</strong>
+        <span>Est. West Bend, WI</span>
+      </div>
+    </div>
+    <div class="about-text">
+      <p class="section-label">Who We Are</p>
+      <h2 class="section-title">Welcome to Mountain Outfitters</h2>
+      <p>Mountain Outfitters offers a wide range of skiing, snowboarding, and biking products and services. Our professionally trained staff can answer questions about equipment as well as where to ride or ski locally — no matter what your skill level.</p>
+      <p>Located in historic downtown West Bend, Mountain Outfitters is conveniently close to downhill skiing at Sunburst Ski Area and cross country skiing in the Northern Kettle Moraine Forest at Zillmer Trails, Greenbush Trails, and New Fane Trails.</p>
+      <p>Mountain Outfitters is located less than one-quarter mile from the Eisenbahn State Bike Trail and is just minutes from the mountain bike trails and scenic roads of the Northern Kettle Moraine State Forest. Maps and trail descriptions are available online and in the store.</p>
+    </div>
+  </div>
+</section>
+
+<section style="background: var(--cream);">
+  <p class="section-label">Our Services</p>
+  <h2 class="section-title">What We Do</h2>
+  <p class="section-intro">Full-service sales, repair, and rentals — all under one roof in downtown West Bend.</p>
+  <div class="about-highlights" style="max-width:900px; display:grid; grid-template-columns: repeat(3,1fr); gap:1.5rem;">
+    <div class="highlight">
+      <strong>Ski Shop</strong>
+      <span>Wide range of sales, repair, and high-performance tuning services for skis and snowboards.</span>
+    </div>
+    <div class="highlight">
+      <strong>Rental Shop</strong>
+      <span>Downhill skis, cross country skis, and snowshoes. Daily, weekend, weekly, and seasonal rates.</span>
+    </div>
+    <div class="highlight">
+      <strong>Bike Shop</strong>
+      <span>All bikes purchased include a one-year free service guarantee — all labor free for the first year.</span>
+    </div>
+    <div class="highlight">
+      <strong>Custom Bikes</strong>
+      <span>Custom bicycles from Moots, Kent Erickson, and Ventana built from the frame up.</span>
+    </div>
+    <div class="highlight">
+      <strong>Team BONK</strong>
+      <span>We sponsor Team BONK, competing in WORS and WEMS. Team rides are open to everyone.</span>
+    </div>
+    <div class="highlight">
+      <strong>Community Rides</strong>
+      <span>Check out the Washington County Bicycle Club for group rides and community events.</span>
+    </div>
+  </div>
+</section>
+
+<section class="contact-band">
+  <div class="contact-inner">
+    <h2>Come See Us</h2>
+    <div class="contact-block">
+      <h3>Store Hours</h3>
+      <table class="hours-table">
+        <tbody>
+          <tr class="closed"><td>Mon</td><td>Closed</td></tr>
+          <tr><td>Tue</td><td>10:00 am &ndash; 6:00 pm</td></tr>
+          <tr><td>Wed</td><td>10:00 am &ndash; 6:00 pm</td></tr>
+          <tr><td>Thu</td><td>10:00 am &ndash; 6:00 pm</td></tr>
+          <tr><td>Fri</td><td>10:00 am &ndash; 6:00 pm</td></tr>
+          <tr><td>Sat</td><td>10:00 am &ndash; 3:00 pm</td></tr>
+          <tr class="closed"><td>Sun</td><td>Closed</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="contact-block">
+      <h3>Contact</h3>
+      <address>
+        109 S. Main Street<br />
+        West Bend, WI 53095<br /><br />
+        <a href="tel:+12623350424">(262) 335-0424</a><br />
+        <a href="mailto:mntout@mountainout.com">mntout@mountainout.com</a><br /><br />
+        <a href="find-us.html">Get Directions</a>
+      </address>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; <span id="yr"></span> Mountain Outfitters &middot; 109 S. Main Street, West Bend, WI 53095</p>
+  <ul class="footer-links">
+    <li><a href="bikes.html">Bikes</a></li>
+    <li><a href="skiing.html">Skiing</a></li>
+    <li><a href="snowboards.html">Snowboards</a></li>
+    <li><a href="skateboards.html">Skateboards</a></li>
+    <li><a href="bmx.html">BMX</a></li>
+    <li><a href="disc-golf.html">Disc Golf</a></li>
+    <li><a href="rentals.html">Rentals</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="find-us.html">Find Us</a></li>
+  </ul>
+</footer>
+
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+  function toggleMenu() { document.getElementById('mobileMenu').classList.toggle('open'); }
+  document.addEventListener('click', function(e) {
+    const menu = document.getElementById('mobileMenu');
+    if (menu.classList.contains('open') && !menu.contains(e.target) && !e.target.closest('.nav-hamburger')) menu.classList.remove('open');
+  });
+  const days = ['sun','mon','tue','wed','thu','fri','sat'];
+  const today = days[new Date().getDay()];
+  document.querySelectorAll('.hours-table tr td:first-child').forEach(td => {
+    if (td.textContent.toLowerCase() === today) { td.closest('tr').classList.add('today'); td.closest('tr').classList.remove('closed'); }
+  });
+</script>
+</body>
+</html>
